@@ -23,13 +23,14 @@
     <br>
     <label>
     Gender: 
-      Male <input name="gender" type="radio" value="Male">
-      Female <input name="gender" type="radio" value="Female">
-      Unspecified <input name="gender" type="radio" value="Unspecified">
+      Male <input name="gender" type="radio">
+      Female <input name="gender" type="radio">
+      Unspecified* <input name="gender" type="radio">
     </label>
     <br>
     <label>
-    List any medical conditions you have below: 
+      List any medical conditions you have below: 
+      <br>
       <textarea></textarea>
     </label>
   </form>
@@ -38,16 +39,46 @@
     
   <form>
     <label>
-    Full Name: <input name="fullName" type="text">
+      Full Name: <input name="fullName" type="text">
     </label>
     <br>
     <label>
-    Email: <input name="email" type="email">
+      Email: <input name="email" type="email">
     </label>
   </form>
-    
-    
   </div>
+  
+  <div>
+  
+    <h2>Race Details</h2>
+    
+    <form>
+      <label>
+        Are you a member of a running team or club?
+        <br>
+        Yes <input name="member" type="radio">
+        No <input name="member" type="radio">
+      </label>
+      <br>
+      <br>
+      <label>
+        If yes, please enter the team or club name here:
+        <input name="fullName" type="text">
+      </label>
+      <br>
+      <label>
+        <h3>Waiver</h3>
+        <textarea name="textarea" rows="7" cols="50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in sagittis odio. Integer efficitur sed turpis quis viverra. Donec a convallis tortor. Fusce pulvinar felis nec tellus gravida iaculis. Quisque interdum nunc ut nulla ullamcorper cursus. Ut blandit quam massa.</textarea>
+      </label>
+      <br>
+      <label>
+        <input name="member" type="radio"> I accept the above terms and conditions.
+      </label>
+      
+    </form>
+  </div>
+  
+  <p>*Unspecified can only be included in overall rankings. You must select male or female to qualify for gender specific rankings.</p>
   
   
 </body>
