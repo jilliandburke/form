@@ -1,0 +1,224 @@
+body {
+  max-width: 1425px;
+  width: 100%;
+  margin: auto;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+
+section {
+  width: 70%;
+  height: 30%;
+  margin: auto;
+  margin-top: 30px;
+  padding: 10px;
+/*  background-color: aqua;*/
+}
+
+.leftForm {
+  width: 45%;
+  height: 30%;
+  float: left;
+  border-right: 2px solid black;
+/*  background-color: aqua;*/
+}
+
+form, .headerTwo {
+  margin-left: 5%;
+}
+
+.yourDetails, .emergencyContact, h2, p {
+  margin-left: 10%;
+}
+
+.yourDetails, .emergencyContact{
+  margin-top: -5%;
+}
+
+.raceDetails {
+  margin-left: 10%;
+  margin-right: 6%;
+  text-align: justify;
+}
+
+p {
+  margin-top: 5%;
+  font-size: 0.7em;
+}
+
+.headerTwo {
+  text-align: left;
+  margin-left: 10%;
+}
+
+.rightForm {
+  width:45%;
+  float: left;
+  text-align: center;
+  height: 30%;
+/*  background: blue;*/
+/*  border-left: 2px solid black;*/
+}
+
+.textInput {
+  border: 1px solid #ccc;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;  
+  margin-top: 4%;
+  height: 20px;
+  background-color: #E7E0E1;
+  border: 1px solid transparent;
+  border-top: none;
+  border-bottom: 1px solid #DDD;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,.39), 0 -1px 1px #FFF, 0 1px 0 #FFF;
+}
+
+textarea {
+  border: 1px solid #ccc;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;  
+  margin-top: 4%;
+  background-color: #E7E0E1;
+  border: 1px solid transparent;
+  border-top: none;
+  border-bottom: 1px solid #DDD;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,.39), 0 -1px 1px #FFF, 0 1px 0 #FFF;
+}
+
+h3 {
+  margin-left: 33%;
+}
+
+.waiver {
+  margin-left: 1%;
+  margin-top: -1%;
+}
+
+#fullName {
+  margin-left: 4%;
+}
+
+#email {
+  margin-left: 8.5%;
+}
+
+#medConditions {
+  margin-top: 5%;
+  margin-left: 0;
+  font-size: 1em;
+}
+
+#medText {
+  margin-top: -3%;
+}
+
+.radioButtons {
+  margin-left: 25%;
+}
+
+#clubName {
+  margin-left: 17%;
+  margin-bottom: 2%;
+}
+
+button {
+  margin-top: 4%;
+  margin-right: 6%;
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: Arial;
+  color: #282830;
+  font-size: 16px;
+  background: #8BA5D6;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img {
+  height: 70%;
+  display: inline;
+  float: left;
+  margin-left: 4%;
+  margin-top: 2%;
+}
+
+#gender {
+  margin-top: 4%;
+  margin-left: 0;
+  margin-bottom: -4%;
+  font-size: 0.97em;
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+  float: right;
+  margin-top: 50px;
+  margin-right: 10%;;
+}
+
+li {
+  display: inline;
+  padding-left: 10px;
+  font-size: 1.5em;
+}
+
+.nav {
+  margin-top: -1%;
+  height: 100px;
+  background-color: cadetblue;
+}
+
+
+@media (max-width: 480px) {
+    
+    body {
+      max-width: 480px;
+      width: 100%;
+      font-family: sans-serif;
+      overflow-x: hidden;
+    }
+  
+    section {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  
+    .leftForm {
+      width: 100%;
+      height: 30%;
+      margin-left: -8%;
+      clear: both;
+      border-right: 0px solid black;
+  }
+  
+  .rightForm {
+      width: 100%;
+      clear: both;
+      text-align: center;
+      height: 30%;
+      border-top: 2px solid black;
+  }
+  
+  .yourDetails, .emergencyContact, h2, p {
+    margin-left: 15%;
+  }
+}
+

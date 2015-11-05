@@ -3,82 +3,109 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="form.css">
   <title>Shubenacadie Trail Race</title>
 </head>
 
 <body>
+ 
+ <div class="nav">
+  <img src="SchubieLogo-1.png" alt="logo">
+   <nav>
+     <ul>
+       <li>Home</li>
+       <li>About</li>
+       <li>Register</li>
+       <li>Map</li>
+       <li>Contact Us</li>
+     </ul>
+   </nav>
+ </div>
   
-  <div>
-  <h2>Your Details</h2>
-  
-  <form>
-    <label>
-    Full Name: <input name="fullName" type="text">
-    </label>
-    <br>
-    <label>
-    Date of Birth: <input name="birthDate" type="date">
-    </label>
-    <br>
-    <label>
-    Gender: 
-      Male <input name="gender" type="radio">
-      Female <input name="gender" type="radio">
-      Unspecified* <input name="gender" type="radio">
-    </label>
-    <br>
-    <label>
-      List any medical conditions you have below: 
-      <br>
-      <textarea></textarea>
-    </label>
-  </form>
-    
-    <h2>Your Emergency Contact</h2>
-    
-  <form>
-    <label>
-      Full Name: <input name="fullName" type="text">
-    </label>
-    <br>
-    <label>
-      Email: <input name="email" type="email">
-    </label>
-  </form>
-  </div>
-  
-  <div>
-  
-    <h2>Race Details</h2>
-    
-    <form>
+  <section>
+    <div class="leftForm">
+    <h2>Your Details</h2>
+
+    <form class="yourDetails">
       <label>
-        Are you a member of a running team or club?
+        Full Name: <input class="textInput" id="fullName" name="fullName" type="text">
+      </label>
+      <br>
+      <label>
+        Date of Birth: <input class="textInput" name="birthDate" type="date">
+      </label>
+      <br>
+      <label>
+      <p id="gender">
+      Gender: 
+        <input name="gender" type="radio"> Male
+        <input name="gender" type="radio"> Female
+        <input name="gender" type="radio"> Unspecified*
+        </p>
+      </label>
+      <br>
+      <label>
+        <p id="medConditions">List any medical conditions you have below:</p> 
         <br>
-        Yes <input name="member" type="radio">
-        No <input name="member" type="radio">
+        <textarea id="medText" rows="4" cols="40"></textarea>
       </label>
-      <br>
-      <br>
-      <label>
-        If yes, please enter the team or club name here:
-        <input name="fullName" type="text">
-      </label>
-      <br>
-      <label>
-        <h3>Waiver</h3>
-        <textarea name="textarea" rows="7" cols="50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in sagittis odio. Integer efficitur sed turpis quis viverra. Donec a convallis tortor. Fusce pulvinar felis nec tellus gravida iaculis. Quisque interdum nunc ut nulla ullamcorper cursus. Ut blandit quam massa.</textarea>
-      </label>
-      <br>
-      <label>
-        <input name="member" type="radio"> I accept the above terms and conditions.
-      </label>
-      
     </form>
-  </div>
+
+      <h2>Your Emergency Contact</h2>
+
+    <form class="emergencyContact">
+      <label>
+        Full Name: <input class="textInput" name="fullName" type="text">
+      </label>
+      <br>
+      <label>
+        Email: <input class="textInput" id="email" name="email" type="email">
+      </label>
+    </form>
+      
+      <p>*Unspecified can only be included in overall rankings. You must select male or female to qualify for gender specific rankings.</p>
+      
+    </div>
+
+      
+    <div class="rightForm">
+
+      <h2 class="headerTwo">Race Details</h2>
+
+      <form class="raceDetails">
+        <label>
+          Are you a member of a running team or club?
+          <br>
+          <div class="radioButtons">
+          Yes <input name="member" radiogroup="member" type="radio">
+          No <input name="member" radiogroup="member" type="radio">
+          </div>
+        </label>
+        <br>
+        <br>
+        <label>
+          If yes, please enter the team or club name here:
+          <br>
+          <input class="textInput" id="clubName" name="clubName" type="text">
+        </label>
+        <br>
+        <label>
+          <h3>Waiver</h3>
+          <textarea class="waiver" rows="7" cols="40">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in sagittis odio. Integer efficitur sed turpis quis viverra. Donec a convallis tortor. Fusce pulvinar felis nec tellus gravida iaculis. Quisque interdum nunc ut nulla ullamcorper cursus. Ut blandit quam massa.</textarea>
+        </label>
+        <br>
+        <label>
+          <input name="member" type="radio"> I accept the above terms and conditions.
+        </label>
+
+      </form>
+      
+      <button>Submit</button>
+      
+    </div>
+  </section>
   
-  <p>*Unspecified can only be included in overall rankings. You must select male or female to qualify for gender specific rankings.</p>
+  
   
   
 </body>
