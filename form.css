@@ -1,9 +1,17 @@
+html {
+  height: 100%;
+}
+
+
 body {
   max-width: 1425px;
   width: 100%;
+  min-height: 100%;
   margin: auto;
+  margin-bottom: 50px;
   font-family: sans-serif;
   overflow-x: hidden;
+  clear: both;
 }
 
 section {
@@ -151,7 +159,7 @@ img {
   display: inline;
   float: left;
   margin-left: 4%;
-  margin-top: 2%;
+  margin-top: 2.5%;
 }
 
 #gender {
@@ -175,7 +183,7 @@ li {
   font-size: 1.5em;
 }
 
-.nav {
+.navBackground {
   margin-top: -1%;
   height: 100px;
   background-color: cadetblue;
@@ -216,6 +224,10 @@ footer p {
       margin-top: 15px;
     }
   
+    img {
+      margin-top: 2.5%;
+    }
+  
 }
 
 
@@ -228,7 +240,7 @@ footer p {
 
 
 
-@media (max-width: 1121px) {
+@media (max-width: 1127px) {
 
   body {
     max-width: 1450px;
@@ -316,13 +328,16 @@ footer p {
     width: 90%;
     text-align: center;
   }
-
-
-
 }
 
 
-
+@media (max-width: 1051px) {
+    
+    img {
+      height: 55%;
+      margin-top: 3%;
+    }
+}
 
 
 
@@ -377,19 +392,41 @@ footer p {
 }
 
 
-
+@media (max-width: 962px) {
+  
+  img {
+    height: 45%;
+    margin-top: 4%;
+  }
+  
+  
+}
 
 
 
 
 
 @media (max-width: 957px) {
+  
+  html {
+    height: 100%;
+  }
 
   body {
     max-width: 958px;
     width: 100%;
+    height: 200%;
+    min-height: 100%;
+    margin: auto;
+    margin-bottom: 50px;
     font-family: sans-serif;
     overflow-x: hidden;
+    clear: both;
+  }
+  
+  img {
+    height: 45%;
+    margin-top: 4%;
   }
 
   section {
@@ -411,6 +448,7 @@ footer p {
     width: 90%;
     clear: both;
     margin: auto;
+    margin-top: 40%;
     text-align: center;
     border-top: 2px solid black;
   }
@@ -473,41 +511,21 @@ footer p {
 
 @media (max-width: 924px) {
 
+  html {
+    height: 100%;
+  }
+
   body {
     max-width: 924px;
     width: 100%;
+    height: 200%;
+    min-height: 100%;
+    margin: auto;
+    margin-bottom: 50px;
     font-family: sans-serif;
     overflow-x: hidden;
-  }
-  
-/*
-  .img {
-    width: 100%;
-    margin: auto;
-  }
-  
-  img {
-    height: 55%;
-    margin-top: 2%;
-    margin-left: 29%;
-    margin-right: 29%;
     clear: both;
   }
-
-
-  ul {
-    width: 100%;
-    clear: both;
-    margin-top: 0;
-    font-size: 0.9em;
-    margin: auto;
-    text-align: center;
-  }
-
-  li {
-    text-align: left;
-  }
-*/
   
   img {
     height: 45%;
@@ -537,6 +555,7 @@ footer p {
     width: 90%;
     clear: both;
     margin: auto;
+    margin-top: 40%;
     text-align: center;
     border-top: 2px solid black;
   }
@@ -594,6 +613,577 @@ footer p {
 
 
 
+@media (max-width: 780px) {
+  
+  img {
+    height: 40%;
+    margin-top: 5%;
+  }  
+  
+  
+}
+
+
+
+
+@media (max-width: 741px) {  
+  
+  html {
+    height: 100%;
+  }
+
+  body {
+    max-width: 741px;
+    width: 100%;
+    height: 200%;
+    min-height: 100%;
+    margin: auto;
+    margin-bottom: 50px;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    clear: both;
+  }
+  
+  img {
+    height: 50%;
+    margin-top: 3.5%;
+    margin-left: 24.7%;
+    margin-right: 26%;
+    clear: both;
+  }
+  
+  ul {
+    width: 100%;
+    clear: both;
+    margin-top: 0;
+    text-decoration: none;
+    list-style: none;
+    margin: auto;
+    text-align: center;
+  }
+
+  li {
+    text-align: left;
+    display: inline-block;
+    clear: both;
+    padding-right: 8px;
+    padding-left: 0;
+    font-size: 1em;
+  }
+  
+  section {
+    width: 50%;
+    height: 90%;
+    margin: auto;
+    padding: 0;
+  }
+
+  .leftForm {
+    width: 90%;
+    margin: auto;
+    clear: both;
+    text-align: center;
+    border-right: 0px solid black;
+  }
+
+  .rightForm {
+    width: 90%;
+    clear: both;
+    margin: auto;
+    margin-top: 50%;
+    text-align: center;
+    border-top: 2px solid black;
+  }
+
+  .yourDetails, .emergencyContact, h2, p {
+    margin-left: auto;
+    text-align: justify;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .headerTwo {
+    text-align: center;
+    margin: auto;
+  }
+
+  .raceDetails {
+    margin: auto;
+    text-align: justify;
+  }
+
+  footer {
+    position: fixed;
+    background-color: cadetblue;
+    height: 40px;
+    width: 100%;
+    max-width: 1450px;
+    margin: auto;
+    bottom: 0;
+  }
+
+  footer p {
+    position: relative;
+    z-index: 3;
+    top: 40%;
+    margin: auto;
+    width: 90%;
+    text-align: center;
+  }
+
+}
+
+
+
+
+
+@media (max-width: 741px) {  
+
+  html {
+    height: 100%;
+  }
+
+  body {
+    max-width: 741px;
+    width: 100%;
+    height: 200%;
+    min-height: 100%;
+    margin: auto;
+    margin-bottom: 50px;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    clear: both;
+  }
+
+  img {
+    height: 50%;
+    margin-top: 3.5%;
+    margin-left: 24.7%;
+    margin-right: 26%;
+    clear: both;
+  }
+
+  ul {
+    width: 100%;
+    clear: both;
+    margin-top: 0;
+    text-decoration: none;
+    list-style: none;
+    margin: auto;
+    text-align: center;
+  }
+
+  li {
+    text-align: left;
+    display: inline-block;
+    clear: both;
+    padding-right: 8px;
+    padding-left: 0;
+    font-size: 1em;
+  }
+
+  section {
+    width: 50%;
+    height: 90%;
+    margin: auto;
+    padding: 0;
+  }
+
+  .leftForm {
+    width: 90%;
+    margin: auto;
+    clear: both;
+    text-align: center;
+    border-right: 0px solid black;
+  }
+
+  .rightForm {
+    width: 90%;
+    clear: both;
+    margin: auto;
+    margin-top: 60%;
+    text-align: center;
+    border-top: 2px solid black;
+  }
+
+  .yourDetails, .emergencyContact, h2, p {
+    margin-left: auto;
+    text-align: justify;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .headerTwo {
+    text-align: center;
+    margin: auto;
+  }
+
+  .raceDetails {
+    margin: auto;
+    text-align: justify;
+  }
+
+  footer {
+    position: fixed;
+    background-color: cadetblue;
+    height: 40px;
+    width: 100%;
+    max-width: 1450px;
+    margin: auto;
+    bottom: 0;
+  }
+
+  footer p {
+    position: relative;
+    z-index: 3;
+    top: 40%;
+    margin: auto;
+    width: 90%;
+    text-align: center;
+  }
+
+}
+
+
+
+
+@media (max-width: 603px) {  
+
+  html {
+    height: 100%;
+  }
+
+  body {
+    max-width: 603px;
+    width: 100%;
+    height: 200%;
+    min-height: 100%;
+    margin: auto;
+    margin-bottom: 50px;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    clear: both;
+  }
+
+  img {
+    height: 50%;
+    margin-top: 3.5%;
+    margin-left: 20.7%;
+    margin-right: 26%;
+    clear: both;
+  }
+
+  ul {
+    width: 100%;
+    clear: both;
+    margin-top: 0;
+    text-decoration: none;
+    list-style: none;
+    margin: auto;
+    text-align: center;
+  }
+
+  li {
+    text-align: left;
+    display: inline-block;
+    clear: both;
+    padding-right: 8px;
+    padding-left: 0;
+    font-size: 1em;
+  }
+
+  section {
+    width: 60%;
+    height: 90%;
+    margin: auto;
+    padding: 0;
+  }
+
+  .leftForm {
+    width: 90%;
+    margin: auto;
+    clear: both;
+    text-align: center;
+    border-right: 0px solid black;
+  }
+
+  .rightForm {
+    width: 90%;
+    clear: both;
+    margin: auto;
+    margin-top: 50%;
+    text-align: center;
+    border-top: 2px solid black;
+  }
+
+  .yourDetails, .emergencyContact, h2, p {
+    margin-left: auto;
+    text-align: justify;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .headerTwo {
+    text-align: center;
+    margin: auto;
+  }
+
+  .raceDetails {
+    margin: auto;
+    text-align: justify;
+  }
+
+  footer {
+    position: fixed;
+    background-color: cadetblue;
+    height: 40px;
+    width: 100%;
+    max-width: 1450px;
+    margin: auto;
+    bottom: 0;
+  }
+
+  footer p {
+    position: relative;
+    z-index: 3;
+    top: 40%;
+    margin: auto;
+    width: 90%;
+    text-align: center;
+  }
+
+}
+
+
+
+@media (max-width: 603px) {  
+
+  html {
+    height: 100%;
+  }
+
+  body {
+    max-width: 603px;
+    width: 100%;
+    height: 200%;
+    min-height: 100%;
+    margin: auto;
+    margin-bottom: 50px;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    clear: both;
+  }
+
+  img {
+    height: 50%;
+    margin-top: 3.5%;
+    margin-left: 20.7%;
+    margin-right: 26%;
+    clear: both;
+  }
+
+  ul {
+    width: 100%;
+    clear: both;
+    margin-top: 0;
+    text-decoration: none;
+    list-style: none;
+    margin: auto;
+    text-align: center;
+  }
+
+  li {
+    text-align: left;
+    display: inline-block;
+    clear: both;
+    padding-right: 8px;
+    padding-left: 0;
+    font-size: 1em;
+  }
+
+  section {
+    width: 60%;
+    height: 90%;
+    margin: auto;
+    padding: 0;
+  }
+
+  .leftForm {
+    width: 90%;
+    margin: auto;
+    clear: both;
+    text-align: center;
+    border-right: 0px solid black;
+  }
+
+  .rightForm {
+    width: 90%;
+    clear: both;
+    margin: auto;
+    margin-top: 70%;
+    text-align: center;
+    border-top: 2px solid black;
+  }
+
+  .yourDetails, .emergencyContact, h2, p {
+    margin-left: auto;
+    text-align: justify;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .headerTwo {
+    text-align: center;
+    margin: auto;
+  }
+
+  .raceDetails {
+    margin: auto;
+    text-align: justify;
+  }
+
+  footer {
+    position: fixed;
+    background-color: cadetblue;
+    height: 40px;
+    width: 100%;
+    max-width: 1450px;
+    margin: auto;
+    bottom: 0;
+  }
+
+  footer p {
+    position: relative;
+    z-index: 3;
+    top: 40%;
+    margin: auto;
+    width: 90%;
+    text-align: center;
+  }
+
+}
+
+
+
+
+@media (max-width: 504px) {  
+
+  html {
+    height: 100%;
+  }
+
+  body {
+    max-width: 504px;
+    width: 100%;
+    height: 200%;
+    min-height: 100%;
+    margin: auto;
+    margin-bottom: 50px;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    clear: both;
+  }
+
+  img {
+    height: 50%;
+    margin-top: 3.5%;
+    margin-left: 15%;
+    margin-right: 26%;
+    clear: both;
+  }
+
+  ul {
+    width: 100%;
+    clear: both;
+    margin-top: 0;
+    text-decoration: none;
+    list-style: none;
+    margin: auto;
+    text-align: center;
+  }
+
+  li {
+    text-align: left;
+    display: inline-block;
+    clear: both;
+    padding-right: 8px;
+    padding-left: 0;
+    font-size: 1em;
+  }
+
+  section {
+    width: 70%;
+    height: 90%;
+    margin: auto;
+    padding: 0;
+  }
+
+  .leftForm {
+    width: 90%;
+    margin: auto;
+    clear: both;
+    text-align: center;
+    border-right: 0px solid black;
+  }
+
+  .rightForm {
+    width: 90%;
+    clear: both;
+    margin: auto;
+    margin-top: 50%;
+    text-align: center;
+    border-top: 2px solid black;
+  }
+
+  .yourDetails, .emergencyContact, h2, p {
+    margin-left: auto;
+    text-align: justify;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .headerTwo {
+    text-align: center;
+    margin: auto;
+  }
+
+  .raceDetails {
+    margin: auto;
+    text-align: justify;
+  }
+
+  footer {
+    position: fixed;
+    background-color: cadetblue;
+    height: 40px;
+    width: 100%;
+    max-width: 1450px;
+    margin: auto;
+    bottom: 0;
+  }
+
+  footer p {
+    position: relative;
+    z-index: 3;
+    top: 40%;
+    margin: auto;
+    width: 90%;
+    text-align: center;
+  }
+
+
+
+}
 
 
 
@@ -603,12 +1193,21 @@ footer p {
 
 @media (max-width: 479px) {
     
+  html {
+    height: 100%;
+  }
+
   body {
-      max-width: 479px;
-      width: 100%;
-      font-family: sans-serif;
-      overflow-x: hidden;
-    }
+    max-width: 479px;
+    width: 100%;
+    height: 200%;
+    min-height: 100%;
+    margin: auto;
+    margin-bottom: 50px;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    clear: both;
+  }
     
   img {
       height: 50%;
@@ -618,23 +1217,23 @@ footer p {
 
   
   ul {
-      width: 82%;
-      clear: both;
-      margin-top: 0;
-      text-decoration: none;
-      list-style: none;
-      margin: auto;
-    }
-  
+    width: 100%;
+    clear: both;
+    margin-top: 0;
+    text-decoration: none;
+    list-style: none;
+    margin: auto;
+    text-align: center;
+  }
+
   li {
     text-align: left;
     display: inline-block;
-    float: left;
+    clear: both;
     padding-right: 8px;
     padding-left: 0;
     font-size: 1em;
   }
-  
   
   section {
       width: 90%;
@@ -652,11 +1251,12 @@ footer p {
   }
   
   .rightForm {
-      width: 90%;
-      clear: both;
-      margin: auto;
-      text-align: center;
-      border-top: 2px solid black;
+    width: 90%;
+    clear: both;
+    margin: auto;
+    margin-top: 40%;
+    text-align: center;
+    border-top: 2px solid black;
   }
   
   .yourDetails, .emergencyContact, h2, p {
@@ -707,31 +1307,46 @@ footer p {
 
 @media (max-width: 421px) {
 
+  html {
+    height: 100%;
+  }
+
   body {
-    max-width: 425px;
+    max-width: 421px;
     width: 100%;
+    height: 200%;
+    min-height: 100%;
+    margin: auto;
+    margin-bottom: 50px;
     font-family: sans-serif;
     overflow-x: hidden;
+    clear: both;
   }
 
   img {
     height: 50%;
-    margin-left: 13%;;
+    margin-left: 8%;;
     clear: both;
   }
 
   ul {
+    width: 100%;
     clear: both;
     margin-top: 0;
-    font-size: 0.8em;
-    margin-right: 11%;
-    text-align: left;
-  }
-  
-  li {
-    text-align: left;
+    text-decoration: none;
+    list-style: none;
+    margin: auto;
+    text-align: center;
   }
 
+  li {
+    text-align: left;
+    display: inline-block;
+    clear: both;
+    padding-right: 8px;
+    padding-left: 0;
+    font-size: 1em;
+  }
   section {
     width: 90%;
     height: 90%;
@@ -751,6 +1366,7 @@ footer p {
     width: 90%;
     clear: both;
     margin: auto;
+    margin-top: 40%;
     text-align: center;
     border-top: 2px solid black;
   }
