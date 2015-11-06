@@ -10,7 +10,9 @@
 <body>
  
  <div class="nav">
-  <img src="SchubieLogo-1.png" alt="logo">
+   <div class="img">
+      <img src="SchubieLogo-1.png" alt="logo">
+   </div>
    <nav>
      <ul>
        <li>Home</li>
@@ -40,7 +42,8 @@
       Gender: 
         <input name="gender" type="radio"> Male
         <input name="gender" type="radio"> Female
-        <input name="gender" type="radio"> Unspecified*
+        <br class="hidden">
+        <span><input name="gender" type="radio"> Unspecified*</span>
         </p>
       </label>
       <br>
@@ -76,6 +79,7 @@
         <label>
           Are you a member of a running team or club?
           <br>
+          <br>
           <div class="radioButtons">
           Yes <input name="member" radiogroup="member" type="radio">
           No <input name="member" radiogroup="member" type="radio">
@@ -104,7 +108,10 @@
       
     </div>
   </section>
-  
+
+  <footer>
+    <p class="copyright">Shubenacadie Trail Race &#169;2015</p>
+  </footer>
   
   
   
